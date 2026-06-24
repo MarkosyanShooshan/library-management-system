@@ -29,11 +29,20 @@ OOP Կառուցվածքը / OOP Architecture
 Նախագիծը բաղկացած է երկու հիմնական դասերից (Classes).
 
 1. Book Class:
-   ․Attributes:  title` (վերնագիր), author` (հեղինակ),  available` (հասանելիություն):
+    Attributes:
+    title` (վերնագիր),
+    author` (հեղինակ),
+    available` (հասանելիություն):
     
-   ․Methods:  display_info(), checkout()` (վերցնել գիրքը), `checkin()` (վերադարձնել գիրքը):
+   Methods:
+   display_info(),
+   checkout()` (վերցնել գիրքը),
+   checkin()` (վերադարձնել գիրքը):
    
 3. Library Class:
-   Attributes: books` (գրքերի ցուցակ):
+   Attributes:
+   books` (գրքերի ցուցակ):
    
-   Methods: add_book()` (ավելացնել գիրք),  display_books()` (ցուցադրել բոլոր գրքերը):
+   Methods:
+   add_book()` (ավելացնել գիրք),
+   display_books()` (ցուցադրել բոլոր գրքերը):
