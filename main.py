@@ -38,31 +38,25 @@ class Library:
         print("\n=== Library Books ===")
         for book in self.books:
             book.display_info()
-            print("-" * 20)  # Բաժանարար գիծ՝ ավելի կոկիկ տեսքի համար
+            print("-" * 20)  
 
-
-# Գրքերի ստեղծում
 book1 = Book("Hamlet", "Shakespeare")
 book2 = Book("The Silent Patient", "Alex M.")
 book3 = Book("1984", "George Orwell")
 
-# Գրադարանի ստեղծում և գրքերի ավելացում
+
 library = Library()
 library.add_book(book1)
 library.add_book(book2)
 library.add_book(book3)
 
-# 1. Ցուցադրել բոլոր գրքերը
+
 library.display_books()
 
-# 2. Վերցնել գիրքը (Checkout)
+
 book2.checkout()
-
-# 3. Ցուցադրել թարմացված ցուցակը
 library.display_books()
 
-# 4. Վերադարձնել գիրքը (Checkin)
-book2.checkin()
 
-# 5. Ցուցադրել վերջնական ցուցակը
+book2.checkin()
 library.display_books()
