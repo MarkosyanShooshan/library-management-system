@@ -39,7 +39,7 @@ OOP Կառուցվածքը / OOP Architecture
    checkout()` (վերցնել գիրքը),
    checkin()` (վերադարձնել գիրքը):
    
-3. Library Class:
+2. Library Class:
    Attributes:
    books` (գրքերի ցուցակ):
    
